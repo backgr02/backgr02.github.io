@@ -73,7 +73,7 @@
               class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon
               chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
           <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
-          <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">公開日: {{ page.date |
+          <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">投稿日 {{ page.date |
             date: "%Y年%m月%d日"}}</p>
           {{ post_body }}
           <!-- Facebookコメントプラグイン -->
