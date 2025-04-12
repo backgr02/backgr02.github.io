@@ -44,6 +44,7 @@
       <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
       <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
       {{ post_body }}
+      <!-- Facebookコメントプラグイン -->
       <div id="fb-root"></div>
       <script async defer crossorigin="anonymous"
         src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v22.0"></script>
@@ -64,6 +65,7 @@
             <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
             <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
             {{ post_body }}
+            <!-- Facebookコメントプラグイン -->
             <div id="fb-root"></div>
             <script async defer crossorigin="anonymous"
               src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v22.0"></script>

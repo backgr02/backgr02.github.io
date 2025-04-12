@@ -52,3 +52,8 @@
 .min-height-full {
   min-height: 100vh;
 }
+
+// Facebookコメントプラグインの幅を100%に設定
+.fb-comments iframe {
+  width: 100% !important;
+}
