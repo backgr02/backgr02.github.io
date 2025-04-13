@@ -49,8 +49,10 @@
   }
 
   img {
-    width: 100%;
+    width: 100vw;
     height: auto;
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+    margin-right: calc(((100vw - 100%) / 2) * -1);
   }
 }
 
