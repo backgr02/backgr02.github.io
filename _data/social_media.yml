@@ -67,7 +67,7 @@ twitter:
   name: X
   profile_url_prefix: https://x.com/
   share_url_prefix: https://x.com/share?url=
-  icon_svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" fill="#959da5" height="20" role="img" aria-labelledby="aldasu59timdai7k5nv6jcazo982xyl7" class="octicon"><title id="aldasu59timdai7k5nv6jcazo982xyl7">X</title><path fill="#959da5" d="M9.332 6.925 14.544 1h-1.235L8.783 6.145 5.17 1H1l5.466 7.78L1 14.993h1.235l4.78-5.433 3.816 5.433H15L9.332 6.925ZM7.64 8.848l-.554-.775L2.68 1.91h1.897l3.556 4.975.554.775 4.622 6.466h-1.897L7.64 8.848Z"></path></svg>'
+  icon_svg: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" fill="#959da5" height="20" role="img" aria-labelledby="aldasu59timdai7k5nv6jcazo982xyl7" class="octicon"><path fill="#959da5" d="M9.332 6.925 14.544 1h-1.235L8.783 6.145 5.17 1H1l5.466 7.78L1 14.993h1.235l4.78-5.433 3.816 5.433H15L9.332 6.925ZM7.64 8.848l-.554-.775L2.68 1.91h1.897l3.556 4.975.554.775 4.622 6.466h-1.897L7.64 8.848Z"></path></svg>'
 
 unsplash:
   name: Unsplash
