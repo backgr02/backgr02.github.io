@@ -49,10 +49,10 @@
     <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">投稿日 {{ page.date | date:
       "%Y年%m月%d日"}}</p>
     {{ post_body }}
+    <!-- Facebookウェブのいいね！ボタン -->
+    <div class="fb-like" data-href="{{ page.url | prepend: site.url | prepend: site.baseurl }}" data-width=""
+      data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
     <!-- Facebookコメントプラグイン -->
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous"
-      src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v22.0"></script>
     <div class="fb-comments" data-href="{{ page.url | prepend: site.url | prepend: site.baseurl }}" data-width="100%"
       data-numposts="20" data-order-by="reverse_time"></div>
   </div>
@@ -76,10 +76,10 @@
           <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">投稿日 {{ page.date |
             date: "%Y年%m月%d日"}}</p>
           {{ post_body }}
+          <!-- Facebookウェブのいいね！ボタン -->
+          <div class="fb-like" data-href="{{ page.url | prepend: site.url | prepend: site.baseurl }}" data-width=""
+            data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
           <!-- Facebookコメントプラグイン -->
-          <div id="fb-root"></div>
-          <script async defer crossorigin="anonymous"
-            src="https://connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v22.0"></script>
           <div class="fb-comments" data-href="{{ page.url | prepend: site.url | prepend: site.baseurl }}"
             data-width="100%" data-numposts="20" data-order-by="reverse_time"></div>
         </div>
