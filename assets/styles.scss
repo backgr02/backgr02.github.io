@@ -48,11 +48,13 @@
     margin-bottom: 0px;
   }
 
-  img {
-    width: 100vw;
-    height: auto;
-    margin-left: calc(((100vw - 100%) / 2) * -1);
-    margin-right: calc(((100vw - 100%) / 2) * -1);
+  @media (max-width: 767px) {
+    img {
+      width: 100vw;
+      height: auto;
+      margin-left: calc(((100vw - 100%) / 2) * -1);
+      margin-right: calc(((100vw - 100%) / 2) * -1);
+    }
   }
 
   .ogpCard_imageWrap img {
