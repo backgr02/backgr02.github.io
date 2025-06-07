@@ -3,7 +3,7 @@ title: "志摩ロードパーティ ハーフマラソン2025"
 published: true
 ---
 
-<p>2025年4月20日（日）に開催される「志摩ロードパーティ ハーフマラソン2025」の 10km の部に参加しました。</p>
+<p>2025年4月20日（日）に開催された「<a href="https://shima.roadparty.jp/index.html" target="_blank">志摩ロードパーティ ハーフマラソン 2025</a>」にて、霧雨魔理沙のコスプレで 10km 完走しました。</p>
 
 <div class="photo-grid">
   <img src="/assets/2025-04-20/D4D0574E-4958-44A4-806F-8939E9BF9030.jpeg" alt="Photo 1" onclick="openModal(this.src)">
@@ -45,8 +45,16 @@ published: true
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 10px;
+  gap: 0px;
 }
+
+@media (max-width: 767px) {
+  .photo-grid {
+    margin-left: calc(((100vw - 100%) / 2) * -1);
+    margin-right: calc(((100vw - 100%) / 2) * -1);
+  }
+}
+
 .photo-grid img {
   width: 100%;
   height: auto;
